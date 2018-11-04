@@ -1,0 +1,452 @@
+[
+  {
+    "id": "68d3c1d3-531e-4b17-80a8-d57ce80b7e07",
+    "data": [
+      {
+        "text": "Apple",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541218852
+  },
+  {
+    "id": "e98ffdf8-e5a8-4b4d-979a-59411eab056c",
+    "data": [
+      {
+        "text": "Samsung",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541218647
+  },
+  {
+    "id": "b317896b-8de3-40c8-817a-b709a53864c9",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541170553
+  },
+  {
+    "id": "c21772f3-b179-431f-972e-46001ddbc7d5",
+    "data": [
+      {
+        "text": "show ",
+        "userDefined": false
+      },
+      {
+        "text": "iphones",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541136633
+  },
+  {
+    "id": "3fbe2012-25d3-4540-a4ce-5b718a4e2267",
+    "data": [
+      {
+        "text": "show ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541136633
+  },
+  {
+    "id": "607a204b-9894-4cc6-976b-8179c07381b2",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "iphones",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541133254
+  },
+  {
+    "id": "106dabbc-1efc-453c-83ae-06b8217b38a1",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541133254
+  },
+  {
+    "id": "0802cb20-e2a1-41c5-921f-bc7e40491040",
+    "data": [
+      {
+        "text": "show me all ",
+        "userDefined": false
+      },
+      {
+        "text": "iphones",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541131729
+  },
+  {
+    "id": "e8926df0-000c-40ec-94aa-a53f036443fe",
+    "data": [
+      {
+        "text": "show me all ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "9ae0c8dc-890c-4d73-af2a-b228ddc9bf90",
+    "data": [
+      {
+        "text": "Show me ",
+        "userDefined": false
+      },
+      {
+        "text": "Samsung",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "6a9351bb-8478-47ed-a150-3768c6b7258f",
+    "data": [
+      {
+        "text": " I want to shop ",
+        "userDefined": false
+      },
+      {
+        "text": "Samsung",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "ed199e9c-edb4-46ea-b719-cc60c4e98de4",
+    "data": [
+      {
+        "text": "i want to shop ",
+        "userDefined": false
+      },
+      {
+        "text": "Iphones",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "66591683-f5c6-4389-81ff-a3dbb3b4616a",
+    "data": [
+      {
+        "text": "I want to shop ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "alias": "device-brand",
+        "meta": "@device-brand",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "d45a4acb-59fb-4d91-b1e0-abb9e0c87d60",
+    "data": [
+      {
+        "text": "I want to shop ",
+        "userDefined": false
+      },
+      {
+        "text": "devices",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541129289
+  },
+  {
+    "id": "712b977c-3f36-4b0e-90f5-ef329f1795b3",
+    "data": [
+      {
+        "text": "shop",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540935701
+  },
+  {
+    "id": "cad6cb2f-b296-44f7-83c8-fd323cc2f2d1",
+    "data": [
+      {
+        "text": "I want to shop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540919502
+  },
+  {
+    "id": "e6d07908-5d88-49b6-95e2-f308cf424c38",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "smartphones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540910854
+  },
+  {
+    "id": "4cd56eae-e4c9-4898-803a-62ca3879228b",
+    "data": [
+      {
+        "text": "show me ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "phones",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540910854
+  },
+  {
+    "id": "3a520bbc-b0f2-4387-82ad-0e4a68593180",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "Samsung S9",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540913519
+  },
+  {
+    "id": "ab87240f-f9a6-48a0-9754-aa4101ddf3c1",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "Samsung",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540910545
+  },
+  {
+    "id": "bcba4bdf-74bb-48b8-bd6a-8d1b483877b6",
+    "data": [
+      {
+        "text": "Iphone x",
+        "alias": "shop-item",
+        "meta": "@shop-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540910545
+  },
+  {
+    "id": "a99a3493-f425-48e3-a38f-fe916c5567c6",
+    "data": [
+      {
+        "text": "shop ",
+        "userDefined": false
+      },
+      {
+        "text": "Iphone X",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540913519
+  }
+]

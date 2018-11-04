@@ -1,0 +1,56 @@
+{
+  "id": "335027c3-d32f-4438-b2fb-33437eadca7d",
+  "parentId": "f3ebdf4f-aca0-46d1-b053-3c1d50161eb2",
+  "rootParentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Shop-Add-to-Cart - no",
+  "auto": true,
+  "contexts": [
+    "Shop-Add-to-Cart-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shop.add-to-cart.Shop-Add-to-Cart-no",
+      "affectedContexts": [
+        {
+          "name": "Shop-Add-to-Cart-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "afd3c92f-1612-479e-b315-b1f446018584",
+          "required": false,
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "#Shop-Add-to-Cart-followup.device-brand",
+          "isList": false
+        },
+        {
+          "id": "aa2a2fbe-b75c-416c-bdbf-2f427651c71b",
+          "required": false,
+          "dataType": "@shop-item",
+          "name": "shop-item",
+          "value": "#Shop-Add-to-Cart-followup.shop-item",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you want to see more #Shop-Add-to-Cart-followup.device-brand phones?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540969723,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "6cc904d8-6060-4bf7-b0be-68ef9e648899",
+    "data": [
+      {
+        "text": "start ",
+        "userDefined": false
+      },
+      {
+        "text": "checkout",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540973758
+  },
+  {
+    "id": "b74590a0-3b11-4164-a1da-fbcb6922e663",
+    "data": [
+      {
+        "text": "checkout",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540973758
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "id": "836640e8-8b43-407e-9098-48db1e3f3017",
+  "parentId": "f3ebdf4f-aca0-46d1-b053-3c1d50161eb2",
+  "rootParentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Shop-Add-to-Cart - yes",
+  "auto": true,
+  "contexts": [
+    "Shop-Add-to-Cart-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shop.add-to-cart.Shop-Add-to-Cart-yes",
+      "affectedContexts": [
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 500
+        },
+        {
+          "name": "view-cart",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Shopplan-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "513d0cbb-ba36-48c0-941a-185ce251780e",
+          "required": false,
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "#Shop-Add-to-Cart-followup.device-brand",
+          "isList": false
+        },
+        {
+          "id": "b9959530-4d88-49a4-87a0-9f67c7b17ef8",
+          "required": false,
+          "dataType": "@cart-item",
+          "name": "cart-item",
+          "value": "#Shop-Add-to-Cart-followup.cart-item",
+          "isList": false
+        },
+        {
+          "id": "75eaab07-23de-41db-a076-b75f7e8561dd",
+          "required": false,
+          "dataType": "@plan",
+          "name": "plan",
+          "value": "$plan",
+          "isList": false
+        },
+        {
+          "id": "dae48196-aff9-4b90-ac41-ef369e60194c",
+          "required": false,
+          "dataType": "@plan-item",
+          "name": "plan-item",
+          "value": "#Session-Var.plan-item",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "\"#Shop-Add-to-Cart-followup.cart-item is added to Cart. your selected plan is $plan-item.  Please view cart to check the items in your cart",
+            "\"#Shop-Add-to-Cart-followup.cart-item 32GB Black is added to Cart,  Please add plan."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541074342,
+  "fallbackIntent": false,
+  "events": []
+}

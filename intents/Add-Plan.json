@@ -1,0 +1,85 @@
+{
+  "id": "28c9a612-c884-4a92-8429-75b0d3718830",
+  "parentId": "b18f72a5-790b-4a9f-96e4-418f735d9ee7",
+  "rootParentId": "b18f72a5-790b-4a9f-96e4-418f735d9ee7",
+  "name": "Add-Plan",
+  "auto": true,
+  "contexts": [
+    "Shopplan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shopplan.add-plan",
+      "affectedContexts": [
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 300
+        },
+        {
+          "name": "view-cart",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "35e1fc9e-14ea-4e85-bbd9-3e995eff4289",
+          "required": false,
+          "dataType": "@plan-item",
+          "name": "plan-item",
+          "value": "$plan-item",
+          "isList": false
+        },
+        {
+          "id": "d8f5babf-6944-47a1-b694-7f8559c39195",
+          "required": false,
+          "dataType": "@plan",
+          "name": "plan",
+          "value": "#Shopplan-followup.plan",
+          "isList": false
+        },
+        {
+          "id": "45a1ce96-c1d6-444e-9bad-fe3832093f7a",
+          "required": false,
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "#Session-Var.device-brand",
+          "isList": false
+        },
+        {
+          "id": "a5c2552e-0726-4f86-ba2f-add2d00951e1",
+          "required": false,
+          "dataType": "@cart-item",
+          "name": "cart-item",
+          "value": "#Session-Var.cart-item",
+          "isList": false
+        },
+        {
+          "id": "21ba4bc2-f85b-4d04-b198-66ecf8c53013",
+          "required": false,
+          "dataType": "@shop-item",
+          "name": "shop-item",
+          "value": "#Session-Var.shop-item",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$plan-item added to cart."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541071736,
+  "fallbackIntent": false,
+  "events": []
+}

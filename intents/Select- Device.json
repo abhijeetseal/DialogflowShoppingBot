@@ -1,0 +1,63 @@
+{
+  "id": "f0a0e6a7-5eef-4afc-ae65-54defeb926b8",
+  "parentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "rootParentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Select- Device",
+  "auto": true,
+  "contexts": [
+    "Shop-followup",
+    "Session-Var"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Select.device",
+      "affectedContexts": [
+        {
+          "name": "Shop-brand-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 300
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b55d8d8b-eb44-45e2-bd39-3dd2f1df6c55",
+          "required": true,
+          "dataType": "@cart-item",
+          "name": "cart-item",
+          "value": "$cart-item.original",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "$cart-item.original is added to Cart, please select Plan"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$cart-item.original is added to Cart, please select Plan"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false,
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541170435,
+  "fallbackIntent": false,
+  "events": []
+}

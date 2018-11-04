@@ -1,0 +1,39 @@
+[
+  {
+    "value": "cart-item",
+    "synonyms": [
+      "@samsung-Phones",
+      "@apple-Phones"
+    ]
+  },
+  {
+    "value": "cart items",
+    "synonyms": [
+      "cart items"
+    ]
+  },
+  {
+    "value": "cart",
+    "synonyms": [
+      "cart"
+    ]
+  },
+  {
+    "value": "Beyond Unlimited",
+    "synonyms": [
+      "Beyond Unlimited"
+    ]
+  },
+  {
+    "value": "Go Unlimited",
+    "synonyms": [
+      "Go Unlimited"
+    ]
+  },
+  {
+    "value": "view cart",
+    "synonyms": [
+      "view cart"
+    ]
+  }
+]

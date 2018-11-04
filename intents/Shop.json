@@ -1,0 +1,79 @@
+{
+  "id": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Shop",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "shop",
+      "affectedContexts": [
+        {
+          "name": "Shop-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 500
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c729a8b2-8823-4aaa-99cf-6f7baee56929",
+          "required": true,
+          "dataType": "@shop-item",
+          "name": "shop-item",
+          "value": "$shop-item",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What would you like to buy ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8b330b67-8476-49fa-9ff7-48fc85c4bec2",
+          "required": false,
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "$device-brand",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Apple"
+            },
+            {
+              "title": "Samsung"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541218963,
+  "fallbackIntent": false,
+  "events": []
+}

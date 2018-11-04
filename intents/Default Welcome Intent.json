@@ -1,0 +1,59 @@
+{
+  "id": "b8c45399-61cd-46bb-a61e-5d1624192c1b",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi!  Thank you for visiting VzShop. Kindly explore our wide range of products"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Explore Phones",
+          "buttons": [
+            {
+              "text": "All Phones",
+              "postback": "Shop Phones"
+            },
+            {
+              "text": "Apple Phones",
+              "postback": "Apple Phones"
+            },
+            {
+              "text": "Samsung Phones",
+              "postback": "Samsung Phones"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi!  Thank you for visiting VzShop."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541218443,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

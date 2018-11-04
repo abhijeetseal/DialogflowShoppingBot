@@ -1,0 +1,76 @@
+{
+  "id": "f3ebdf4f-aca0-46d1-b053-3c1d50161eb2",
+  "parentId": "f0a0e6a7-5eef-4afc-ae65-54defeb926b8",
+  "rootParentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Shop-Add-to-Cart",
+  "auto": true,
+  "contexts": [
+    "Shop-brand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shop.add-to-cart",
+      "affectedContexts": [
+        {
+          "name": "Shop-Add-to-Cart-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 200
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ed11050a-db66-45a8-9a79-89080d198230",
+          "required": false,
+          "dataType": "@cart-item",
+          "name": "cart-item",
+          "value": "$cart-item.original",
+          "isList": true
+        },
+        {
+          "id": "735b6d25-957a-4826-ad24-85f4ca4da73d",
+          "required": false,
+          "dataType": "@shop-item",
+          "name": "shop-item",
+          "value": "#Shop-brand-followup.shop-item",
+          "isList": false
+        },
+        {
+          "id": "4ee153fe-13ab-474d-960c-021c0ce28744",
+          "required": false,
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "#Shop-brand-followup.device-brand",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Yes",
+          "replies": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You have selected $cart-item 32GB Black, Do you want to add this to cart ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541068728,
+  "fallbackIntent": false,
+  "events": []
+}

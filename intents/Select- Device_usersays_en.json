@@ -1,0 +1,30 @@
+[
+  {
+    "id": "d1f1ccdb-a47f-4289-aacf-2b26b6f9d140",
+    "data": [
+      {
+        "text": "IPhone X",
+        "alias": "cart-item",
+        "meta": "@cart-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541135265
+  },
+  {
+    "id": "ea9fd43e-f4f5-4d92-88aa-4ee44a16ee96",
+    "data": [
+      {
+        "text": "Samsung S9",
+        "alias": "cart-item",
+        "meta": "@cart-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1541135265
+  }
+]

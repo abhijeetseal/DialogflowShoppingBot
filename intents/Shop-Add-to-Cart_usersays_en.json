@@ -1,0 +1,29 @@
+[
+  {
+    "id": "05bf7a9a-ac42-4680-93dd-6838cca0465c",
+    "data": [
+      {
+        "text": "iphone x",
+        "alias": "cart-item",
+        "meta": "@cart-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1540941835
+  },
+  {
+    "id": "2431f3f7-84fe-47a9-9d5f-ccebd1e29332",
+    "data": [
+      {
+        "text": "buy iphone x",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1540941835
+  }
+]

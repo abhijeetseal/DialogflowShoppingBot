@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Phones",
+    "synonyms": [
+      "phones",
+      "smartphones"
+    ]
+  },
+  {
+    "value": "Accessories",
+    "synonyms": [
+      "Accessories",
+      "Accessory"
+    ]
+  },
+  {
+    "value": "devices",
+    "synonyms": [
+      "devices"
+    ]
+  }
+]

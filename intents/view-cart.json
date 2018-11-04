@@ -1,0 +1,57 @@
+{
+  "id": "53b926a5-cc69-47cc-af2b-a07fc87041e9",
+  "name": "view-cart",
+  "auto": true,
+  "contexts": [
+    "Session-Var"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.viewcart",
+      "affectedContexts": [
+        {
+          "name": "view-cart",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 200
+        }
+      ],
+      "parameters": [
+        {
+          "id": "876c4925-ca9b-4071-a851-e3946fc4fb39",
+          "required": false,
+          "dataType": "@Cart",
+          "name": "Cart",
+          "value": "$Cart.original",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Here is the list of Phones, which one would you like to buy?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541219145,
+  "fallbackIntent": false,
+  "events": []
+}

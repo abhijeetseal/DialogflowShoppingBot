@@ -1,0 +1,45 @@
+{
+  "id": "b18f72a5-790b-4a9f-96e4-418f735d9ee7",
+  "name": "Shop plan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shop.plans",
+      "affectedContexts": [
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 300
+        },
+        {
+          "name": "Shopplan-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7c731831-2917-4fc2-916e-e93da7b0c4fd",
+          "required": false,
+          "dataType": "@plan-item",
+          "name": "plan-item",
+          "value": "$plan-item",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541218948,
+  "fallbackIntent": false,
+  "events": []
+}

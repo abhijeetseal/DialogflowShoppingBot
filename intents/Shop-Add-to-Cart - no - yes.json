@@ -1,0 +1,52 @@
+{
+  "id": "714e14a1-62c6-4d45-a5b2-9fce2b9f42e5",
+  "parentId": "335027c3-d32f-4438-b2fb-33437eadca7d",
+  "rootParentId": "15bae621-47c9-40a1-a3cf-8534a3381cc2",
+  "name": "Shop-Add-to-Cart - no - yes",
+  "auto": true,
+  "contexts": [
+    "Shop-Add-to-Cart-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Shop.add-to-cart.Shop-Add-to-Cart-no.Shop-Add-to-Cart-no-yes",
+      "affectedContexts": [
+        {
+          "name": "Shop-brand-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8651f0cb-1e5d-473c-9d53-2509b16840a0",
+          "dataType": "@device-brand",
+          "name": "device-brand",
+          "value": "#Shop-Add-to-Cart-no-followup.device-brand"
+        },
+        {
+          "id": "92a02c61-201f-4a3f-8e1e-87f3815c3c5c",
+          "dataType": "@shop-item",
+          "name": "shop-item",
+          "value": "#Shop-Add-to-Cart-no-followup.shop-item"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540970241,
+  "fallbackIntent": false,
+  "events": []
+}

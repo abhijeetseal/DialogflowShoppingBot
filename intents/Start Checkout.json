@@ -1,0 +1,66 @@
+{
+  "id": "00e12edf-e584-43e5-98fc-1041eb844478",
+  "name": "Start Checkout",
+  "auto": true,
+  "contexts": [
+    "view-cart"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkout.start",
+      "affectedContexts": [
+        {
+          "name": "Session-Var",
+          "parameters": {},
+          "lifespan": 200
+        }
+      ],
+      "parameters": [
+        {
+          "id": "34afe740-3f12-494c-96ba-42e8766fd780",
+          "required": true,
+          "dataType": "@cart-item",
+          "name": "cart-item",
+          "value": "#Session-Var.cart-item",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "you have not added the device in cart. please add device in cart before checkout."
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "22feb636-93c0-4fb7-89dd-107d5aff8ce3",
+          "required": true,
+          "dataType": "@plan-item",
+          "name": "plan-item",
+          "value": "#Session-Var.plan-item",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "you have not added the plan in the cart. before checkout please add plan"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1541074133,
+  "fallbackIntent": false,
+  "events": []
+}

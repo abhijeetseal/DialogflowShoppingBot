@@ -1,0 +1,18 @@
+[
+  {
+    "value": "Apple",
+    "synonyms": [
+      "Apple",
+      "@apple-Phones",
+      "IPhones"
+    ]
+  },
+  {
+    "value": "Samsung",
+    "synonyms": [
+      "Samsung",
+      "samsung",
+      "@samsung-Phones"
+    ]
+  }
+]
